@@ -450,7 +450,7 @@ class DotRing extends StatelessWidget {
             curve: Curves.easeOutCubic,
             builder: (_, v, _) => CustomPaint(size: Size.square(size), painter: _RingPainter(v, dots, tip)),
           ),
-          if (child != null) child!,
+          ?child,
         ]),
       );
 }

@@ -104,7 +104,7 @@ class Screen extends StatelessWidget {
                 child: Row(children: [
                   if (back) RoundBtn(Icons.arrow_back_rounded, size: 44, onTap: () => Navigator.of(context).maybePop()),
                   const Spacer(),
-                  if (trailing != null) trailing!,
+                  ?trailing,
                 ]),
               ),
             Expanded(
