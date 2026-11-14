@@ -17,6 +17,8 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
+          # Same Flutter as local development. A newer Flutter can require a newer Android Gradle Plugin.
+          flutter-version: '3.47.9'
           channel: stable
           cache: true
 
