@@ -1,0 +1,20 @@
+# Private working notes and study material: never published
+docs/
+reference/
+plan.md
+
+# Build output and local files
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.dart_tool/
+**/.idea/
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+*.aab
+*.apk
+
+# Study images for choosing a logo (not part of the project)
+logo_ideas/
