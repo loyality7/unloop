@@ -11,7 +11,7 @@ Use your apps without the endless loop. Unloop steps you out of Reels, Shorts, F
 * **Commitment:** a 60 second wait before loosening anything, and a strict mode that only lets rules get tighter.
 * **Local insights, notification snoozing, backup to your clipboard.**
 
-Everything is processed on your phone. See [PRIVACY.md](PRIVACY.md).
+Everything is processed on your phone. See the [privacy policy](https://loyality7.github.io/unloop/privacy.html) ([source](PRIVACY.md)).
 
 ## How it works
 
