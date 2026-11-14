@@ -1,0 +1,2 @@
+#{"v":1,"app":"youtube","allowShared":true,"allowText":true,"oracle":["none"]}
+{"k":"snap","at":0,"pkg":"com.google.android.youtube","screen":[0,0,1080,2400],"w":[{"pkg":"com.google.android.youtube","b":[0,0,1080,2400],"act":true,"foc":true,"app":true,"root":{"b":[0,0,1080,2400],"c":[{"id":"com.google.android.youtube:id/watch_player","b":[0,0,1080,607]}]}}]}
