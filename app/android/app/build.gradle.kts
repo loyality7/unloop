@@ -72,6 +72,7 @@ android {
             signingConfig = signingConfigs.getByName(if (keystoreProps.isNotEmpty()) "release" else "debug")
             // Native debug symbols travel inside the bundle so Play can symbolicate crash reports.
             ndk { debugSymbolLevel = "SYMBOL_TABLE" }
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }
